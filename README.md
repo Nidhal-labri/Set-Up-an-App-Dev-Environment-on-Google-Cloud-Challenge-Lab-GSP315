@@ -138,5 +138,4 @@ gcloud projects remove-iam-policy-binding $(gcloud config get-value project) \
 
 ```
 
-
 ### Then Congratulations !!!
