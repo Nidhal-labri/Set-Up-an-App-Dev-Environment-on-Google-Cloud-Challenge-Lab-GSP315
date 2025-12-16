@@ -126,7 +126,7 @@ EOF
 gcloud functions deploy $FUNCTION_NAME \
   --gen2 \
   --region=$REGION \
-  --runtime=nodejs18 \
+  --runtime=nodejs24 \
   --entry-point=memories-thumbnail-generator \
   --trigger-event-filters="type=google.cloud.storage.object.v1.finalized" \
   --trigger-event-filters="bucket=$BUCKET_NAME" \
